@@ -11,7 +11,7 @@ angular.module('angularHelpOverlay', []).directive('helpOverlay', ['$document', 
     },
     link: function (scope, element, attrs) {
 
-      $document.on('chardinJs:start', function (event) {
+      $(document).on('chardinJs:start', function (event) {
         if (angular.isFunction(scope.overlayStart)) {
           scope.overlayStart(event);
         }
@@ -24,7 +24,7 @@ angular.module('angularHelpOverlay', []).directive('helpOverlay', ['$document', 
         }
       });
 
-      $document.on('chardinJs:stop', function (event) {
+      $(document).on('chardinJs:stop', function (event) {
         if (angular.isFunction(scope.overlayStop)) {
           scope.overlayStop(event);
         }
