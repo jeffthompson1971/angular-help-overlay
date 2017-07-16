@@ -13,7 +13,7 @@ angular.module('app', ['angularHelpOverlay']).controller('MainCtrl', function ($
 
   $scope.toggleHelp = function() {
     $scope.showHelp = !$scope.showHelp;
-    /*var picture = $('.jumbotron img');
+    var picture = $('.jumbotron img');
     if (picture.is(':visible')) {
       return ($('body').data('chardinJs')).toggle();
     } else {
@@ -22,7 +22,7 @@ angular.module('app', ['angularHelpOverlay']).controller('MainCtrl', function ($
       }, 600, function() {
         return ($('body').data('chardinJs')).toggle();
       });
-    }*/
+    }
   };
 
 });
