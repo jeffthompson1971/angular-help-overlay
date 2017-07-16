@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
+    "chardin.js": "https://github.com/jeffthompson1971/chardin.js.git",
     "jquery": ">=1.6.0 <2.0.0",
     "angular": ">=1.2.0"
   }
