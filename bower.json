@@ -3,7 +3,7 @@
   "version": "0.1.3",
   "homepage": "https://github.com/jeffthompson1971/angular-help-overlay",
   "authors": [
-    "Jeff Thompson <@jordanburke>"
+    "Jeff Thompson <jeffthompson1971@gmail.com>"
   ],
   "main": "lib/angular-help-overlay.min.js",
   "description": "Directive for chardin.js instruction overlay",
@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "jquery": ">=1.6.0 <2.0.0",
-    "chardin.js": "https://github.com/jeffthompson1971/chardin.js#~0.1.3",
+    "chardin.js": "https://github.com/jeffthompson1971/chardin.js",
     "angular": ">=1.2.0"
   }
 }
