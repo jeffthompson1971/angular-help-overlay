@@ -5,8 +5,11 @@
   "authors": [
     "Jeff Thompson <@jordanburke>"
   ],
-  "main": "lib/angular-help-overlay.js",
+  "main": "lib/angular-help-overlay.min.js",
   "description": "Directive for chardin.js instruction overlay",
+   "scripts": {
+    "postinstall": "npm install && grunt --force"
+  },
   "keywords": [
   ],
   "license": "MIT",
